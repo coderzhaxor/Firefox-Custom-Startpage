@@ -1,0 +1,42 @@
+h1 {
+    font-size: 2rem;
+    color: #ad1057;
+}
+
+h3 {
+    color: #ad1057;
+}
+
+.main-menu > div > p {
+    color: #274f87;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+a::before {
+    content: ">";
+    margin-right: 5px;
+    opacity: 0;
+}
+
+a:hover {
+    color: #274f87;
+}
+
+a:hover::before {
+    opacity: 1;
+}
+
+.ml-2 {
+    margin-left: 20px;
+}
